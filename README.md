@@ -1,4 +1,4 @@
-# Entre no MySQL como um usuário que tenha permissões administrativas (por exemplo, o usuário root) usando o comando:
+### Entre no MySQL como um usuário que tenha permissões administrativas (por exemplo, o usuário root) usando o comando:
 
 ```
 mysql -h localhost -u root -pDEVOPS12345
@@ -21,7 +21,7 @@ mysql -h mysql-service -u wpuser -pDEVOPS12345
 
 
 
-# Para validar os usuários criados no MySQL e suas permissões, você pode executar comandos SQL diretamente no servidor MySQL.
+### Para validar os usuários criados no MySQL e suas permissões, você pode executar comandos SQL diretamente no servidor MySQL.
 
 - Listar todos os usuários, isso mostrará todos os usuários e os hosts associados.:
 
@@ -44,7 +44,7 @@ Substitua 'nome_do_usuário' pelo nome do usuário e 'host' pelo host correspond
 SELECT User, Host, Grant_priv, Super_priv FROM mysql.user;
 ```
 
-# Comando K8S
+### Comando K8S
 
 - Acessar o pod do MySQL diretamente usando o comando kubectl exec 
 
